@@ -6,20 +6,15 @@ This repository contains an embedded system project that automatically protects 
 The Automated Clothes Drying System is a microcontroller-based automation project designed to reduce manual monitoring during the clothes drying process. By integrating a rain sensor and a light sensor, the system continuously observes environmental conditions and reacts automatically to protect clothes from unexpected rain or nighttime humidity. This project serves as a practical implementation of embedded systems, sensor-based decision making, and actuator control commonly used in real-world automation systems.
 
 ## ✨ Features
-1. **Automatic Rain Detection**  
-   Uses an analog rain sensor to detect water presence and trigger protective actions.
+1. **Automatic Rain Detection**:Uses an analog rain sensor to detect water presence and trigger protective actions.
 
-2. **Night Condition Detection**  
-   Detects low-light conditions using an LDR sensor as an additional trigger.
+2. **Night Condition Detection**: Detects low-light conditions using an LDR sensor as an additional trigger.
 
-3. **Servo-Based Control**  
-   Controls a servo motor to simulate automatic clothesline movement.
+3. **Servo-Based Control**: Controls a servo motor to simulate automatic clothesline movement.
 
-4. **Audio Notification**  
-   Activates a buzzer once as a system alert during automatic operation.
+4. **Audio Notification**: Activates a buzzer once as a system alert during automatic operation.
 
-5. **Real-Time Monitoring**  
-   Displays sensor values and system status via Serial Monitor for debugging.
+5. **Real-Time Monitoring**: Displays sensor values and system status via Serial Monitor for debugging.
 
 ## 🛠️ Technologies Used
 - Arduino Uno  
