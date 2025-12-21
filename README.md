@@ -3,9 +3,7 @@
 This repository contains an embedded system project that automatically protects drying clothes by retracting the clothesline when rain is detected or when the environment becomes dark.
 
 ## 🌟 Overview
-The Automated Clothes Drying System is a microcontroller-based automation project designed to reduce manual monitoring during the clothes drying process. By integrating a rain sensor and a light sensor, the system continuously observes environmental conditions and reacts automatically to protect clothes from unexpected rain or nighttime humidity.
-
-This project serves as a practical implementation of embedded systems, sensor-based decision making, and actuator control commonly used in real-world automation systems.
+The Automated Clothes Drying System is a microcontroller-based automation project designed to reduce manual monitoring during the clothes drying process. By integrating a rain sensor and a light sensor, the system continuously observes environmental conditions and reacts automatically to protect clothes from unexpected rain or nighttime humidity. This project serves as a practical implementation of embedded systems, sensor-based decision making, and actuator control commonly used in real-world automation systems.
 
 ## ✨ Features
 1. **Automatic Rain Detection**  
