@@ -1,76 +1,92 @@
 # Automated Clothes Drying System
-Rain and Light Sensor Based
+Rain and Light Sensor Based 🌦️☀️
 
-## Overview
-This project implements an embedded automation system that automatically retracts a clothesline when rain is detected or when the environment becomes dark. Using environmental sensors and a microcontroller, the system helps protect drying clothes without requiring manual monitoring.
+This repository contains an embedded system project that automatically protects drying clothes by retracting the clothesline when rain is detected or when the environment becomes dark.
 
-This project demonstrates the integration of sensors, decision logic, and actuator control in a real-time embedded system.
+## 🌟 Overview
+The Automated Clothes Drying System is a microcontroller-based automation project designed to reduce manual monitoring during the clothes drying process. By integrating a rain sensor and a light sensor, the system continuously observes environmental conditions and reacts automatically to protect clothes from unexpected rain or nighttime humidity.
 
-## Features
-- Automatic rain detection using an analog rain sensor
-- Night condition detection using a light sensor (LDR)
-- Servo-based automatic clothesline control
-- One-time buzzer alert during system activation
-- Real-time monitoring through Serial Monitor
+This project serves as a practical implementation of embedded systems, sensor-based decision making, and actuator control commonly used in real-world automation systems.
 
-## Technologies Used
-- Arduino Uno
-- C/C++ (Arduino)
-- Rain Sensor (Analog)
-- LDR Light Sensor (Digital Comparator)
-- Servo Motor
-- Buzzer
-- Arduino IDE
+## ✨ Features
+1. **Automatic Rain Detection**  
+   Uses an analog rain sensor to detect water presence and trigger protective actions.
 
-## System Workflow
-1. The system continuously reads data from the rain and light sensors.
-2. If rain is detected or light intensity drops below a threshold, the servo retracts the clothesline.
-3. A buzzer provides a short alert to indicate system activation.
-4. When conditions return to normal, the clothesline is extended again.
+2. **Night Condition Detection**  
+   Detects low-light conditions using an LDR sensor as an additional trigger.
 
-## Hardware Connections
-**Rain Sensor**
-- VCC → 5V  
-- GND → GND  
-- AO → A0  
+3. **Servo-Based Control**  
+   Controls a servo motor to simulate automatic clothesline movement.
 
-**Light Sensor (LDR)**
-- VCC → 5V  
-- GND → GND  
-- D0 → Pin 3  
+4. **Audio Notification**  
+   Activates a buzzer once as a system alert during automatic operation.
 
-**Servo Motor**
-- Signal → Pin 9  
-- VCC → 5V  
-- GND → GND  
+5. **Real-Time Monitoring**  
+   Displays sensor values and system status via Serial Monitor for debugging.
 
-**Buzzer**
-- Positive → Pin 6  
-- Negative → GND  
+## 🛠️ Technologies Used
+- Arduino Uno  
+- C/C++ (Arduino Language)  
+- Rain Sensor (Analog)  
+- LDR Light Sensor (Digital Comparator Module)  
+- Servo Motor  
+- Buzzer  
+- Arduino IDE  
 
-## How to Run
-1. Clone this repository
-2. Open `SmartJemuran.ino` using Arduino IDE
-3. Connect the hardware according to the wiring guide
-4. Upload the code to Arduino Uno
-5. Open Serial Monitor at 9600 baud to observe system behavior
+## 🚀 How to Run
+1. Clone the repository  
+   git clone https://github.com/yourusername/automated-clothes-drying-system.git  
+   cd automated-clothes-drying-system  
 
-## Demo Video
-A demonstration video of the system in operation can be viewed here:  
-📽️ **[Demo Video Link]**
+2. Open the Arduino file  
+   Open `SmartJemuran.ino` using Arduino IDE.
 
-## What I Learned
-- Sensor integration and calibration
-- Embedded decision-making logic
-- Actuator control using PWM
-- System automation and reliability concepts
-- Debugging using Serial communication
+3. Set up the hardware  
 
-## Future Improvements
-- Add IoT connectivity for remote notifications
-- Implement manual override controls
-- Use external power supply for improved stability
-- Add data logging features
+   **Rain Sensor**  
+   VCC → 5V  
+   GND → GND  
+   AO → A0  
 
-## About
-An automated embedded system project developed as part of a Microprocessor and Microcontroller course.
+   **Light Sensor (LDR)**  
+   VCC → 5V  
+   GND → GND  
+   D0 → Pin 3  
+
+   **Servo Motor**  
+   Signal → Pin 9  
+   VCC → 5V  
+   GND → GND  
+
+   **Buzzer**  
+   Positive → Pin 6  
+   Negative → GND  
+
+4. Upload and run  
+   Upload the code to Arduino Uno and open the Serial Monitor at 9600 baud.
+
+## 💡 How the System Works
+1. The system continuously reads values from the rain and light sensors.  
+2. If rain is detected or light intensity drops below a threshold, the servo retracts the clothesline.  
+3. A buzzer sounds once to indicate that a protective action has been triggered.  
+4. When conditions return to normal, the clothesline is extended again automatically.
+
+## 🎥 Demo Video
+A demonstration of the system in action can be viewed here:  
+📽️ Demo Video Link
+
+## 📈 What I Learned
+- Integrating multiple sensors in an embedded system  
+- Implementing decision logic using environmental data  
+- Controlling actuators with PWM signals  
+- Designing simple automation systems with reliability in mind  
+- Debugging hardware and software using Serial communication  
+
+## 🔮 Future Improvements
+- Add IoT connectivity for mobile notifications  
+- Implement manual override controls  
+- Use an external power supply for improved stability  
+- Add data logging for environmental analysis  
+
+## 🤝 Contributing
+Feel free to fork this repository, open issues, or submit pull requests if you have suggestions for improvements or bug fixes.
