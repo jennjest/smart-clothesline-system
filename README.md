@@ -67,18 +67,5 @@ The Automated Clothes Drying System is a microcontroller-based automation projec
 A demonstration of the system in action can be viewed here:  
 📽️ Demo Video Link
 
-## 📈 What I Learned
-- Integrating multiple sensors in an embedded system  
-- Implementing decision logic using environmental data  
-- Controlling actuators with PWM signals  
-- Designing simple automation systems with reliability in mind  
-- Debugging hardware and software using Serial communication  
-
-## 🔮 Future Improvements
-- Add IoT connectivity for mobile notifications  
-- Implement manual override controls  
-- Use an external power supply for improved stability  
-- Add data logging for environmental analysis  
-
 ## 🤝 Contributing
 Feel free to fork this repository, open issues, or submit pull requests if you have suggestions for improvements or bug fixes.
