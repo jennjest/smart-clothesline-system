@@ -6,15 +6,20 @@ This repository contains an embedded system project that automatically protects 
 The Automated Clothes Drying System is a microcontroller-based automation project designed to reduce manual monitoring during the clothes drying process. By integrating a rain sensor and a light sensor, the system continuously observes environmental conditions and reacts automatically to protect clothes from unexpected rain or nighttime humidity. This project serves as a practical implementation of embedded systems, sensor-based decision making, and actuator control commonly used in real-world automation systems.
 
 ## ✨ Features
-1. **Automatic Rain Detection**:Uses an analog rain sensor to detect water presence and trigger protective actions.
+1. **Automatic Rain Detection**  
+   Uses an analog rain sensor to detect water presence and trigger protective actions.
 
-2. **Night Condition Detection**: Detects low-light conditions using an LDR sensor as an additional trigger.
+2. **Night Condition Detection**  
+   Detects low-light conditions using an LDR sensor as an additional trigger.
 
-3. **Servo-Based Control**: Controls a servo motor to simulate automatic clothesline movement.
+3. **Servo-Based Control**  
+   Controls a servo motor to simulate automatic clothesline movement.
 
-4. **Audio Notification**: Activates a buzzer once as a system alert during automatic operation.
+4. **Audio Notification**  
+   Activates a buzzer once as a system alert during automatic operation.
 
-5. **Real-Time Monitoring**: Displays sensor values and system status via Serial Monitor for debugging.
+5. **Real-Time Monitoring**  
+   Displays sensor values and system status via Serial Monitor for debugging.
 
 ## 🛠️ Technologies Used
 - Arduino Uno  
@@ -26,14 +31,21 @@ The Automated Clothes Drying System is a microcontroller-based automation projec
 - Arduino IDE  
 
 ## 🚀 How to Run
-1. Clone the repository  
-   git clone https://github.com/jennjest/smart-clothesline-system.git  
-   cd automated-clothes-drying-system  
+You can obtain the project files in one of the following ways:
 
-2. Open the Arduino file  
-   Open `SmartJemuran.ino` using Arduino IDE.
+### Option 1: Clone the repository (for developers)
+      git clone https://github.com/jennjest/smart-clothesline-system.git
 
-3. Set up the hardware  
+      
+### Option 2: Download as ZIP (simpler for Arduino users)
+Download the repository as a ZIP file from GitHub and extract it locally.
+
+After obtaining the files:
+
+1. Open the Arduino file  
+   Open `SmartClotheslineSystem.ino` using Arduino IDE.
+
+2. Set up the hardware  
 
    **Rain Sensor**  
    VCC → 5V  
@@ -54,7 +66,7 @@ The Automated Clothes Drying System is a microcontroller-based automation projec
    Positive → Pin 6  
    Negative → GND  
 
-4. Upload and run  
+3. Upload and run  
    Upload the code to Arduino Uno and open the Serial Monitor at 9600 baud.
 
 ## 💡 How the System Works
