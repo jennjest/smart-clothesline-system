@@ -27,7 +27,7 @@ The Automated Clothes Drying System is a microcontroller-based automation projec
 
 ## 🚀 How to Run
 1. Clone the repository  
-   git clone https://github.com/yourusername/automated-clothes-drying-system.git  
+   git clone https://github.com/jennjest/smart-clothesline-system.git  
    cd automated-clothes-drying-system  
 
 2. Open the Arduino file  
