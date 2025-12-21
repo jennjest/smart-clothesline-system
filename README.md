@@ -1,5 +1,4 @@
 # Automated Clothes Drying System
-Rain and Light Sensor Based 🌦️☀️
 
 This repository contains an embedded system project that automatically protects drying clothes by retracting the clothesline when rain is detected or when the environment becomes dark.
 
