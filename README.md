@@ -77,7 +77,7 @@ After obtaining the files:
 
 ## 🎥 Demo Video
 A demonstration of the system in action can be viewed here:  
-📽️ [soon to be uploaded]
+📽️ https://drive.google.com/drive/folders/1W2HkG9qYEA5I3nTyR3jsKxdlFNSthUS0?usp=drive_link
 
 ## 🤝 Contributing
 Feel free to fork this repository, open issues, or submit pull requests if you have suggestions for improvements or bug fixes.
