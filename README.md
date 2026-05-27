@@ -77,6 +77,7 @@ After obtaining the files:
 
 ## 📄 Project Report
 A detailed report containing the project background, system design, hardware configuration, program flow, implementation process, and testing results can be accessed here:
+
 📑 https://drive.google.com/file/d/1Af3pFlkZRfzfCN1DuPgf-uz3XM6HHNh0/view?usp=sharing
 
 ## 🎥 Demo Video
