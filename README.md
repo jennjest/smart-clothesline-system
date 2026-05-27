@@ -75,6 +75,10 @@ After obtaining the files:
 3. A buzzer sounds once to indicate that a protective action has been triggered.  
 4. When conditions return to normal, the clothesline is extended again automatically.
 
+**##📄 Project Report**
+A detailed report containing the project background, system design, hardware configuration, program flow, implementation process, and testing results can be accessed here:
+📑 https://drive.google.com/file/d/1Af3pFlkZRfzfCN1DuPgf-uz3XM6HHNh0/view?usp=sharing
+
 ## 🎥 Demo Video
 A demonstration of the system in action can be viewed here:  
 📽️ https://drive.google.com/file/d/1A9HBsH_kEqy5WuAIY8WROHekOMCzy-n3/view?usp=sharing
